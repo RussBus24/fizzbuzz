@@ -11,13 +11,13 @@ console.log(list);
 	}
 	else if (i % 3 === 0 && i % 5 !== 0) {
 		var o = document.createElement("li");
-		o.textContent = "Fizz!"
+		o.textContent = "Fizz!";
 		list.appendChild(o);
 		console.log("Fizz!");
 	}
 	else if (i % 5 === 0 && i % 3 !== 0) {
 		var p = document.createElement("li");
-		p.textContent = "Buzz!"
+		p.textContent = "Buzz!";
 		list.appendChild(p);
 		console.log("Buzz!");
 	}

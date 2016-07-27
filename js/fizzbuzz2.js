@@ -4,6 +4,10 @@ console.log(userChoice);
 var userNumber = parseInt(userChoice);
 console.log(userNumber);
 
+while(isNaN(userNumber)) {
+	
+}
+
 function userResults(integer) {
 
 	var list = document.getElementById("list");
